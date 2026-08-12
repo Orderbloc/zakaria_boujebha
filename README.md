@@ -1,98 +1,18 @@
-# zakaria_boujebha
-<div align="center">
-
-```
- ██████╗ ██╗   ██╗███████╗███████╗███████╗██╗███████╗
-██╔═══██╗██║   ██║██╔════╝██╔════╝██╔════╝██║██╔════╝
-██║   ██║██║   ██║███████╗███████╗█████╗  ██║█████╗  
-██║▄▄ ██║██║   ██║╚════██║╚════██║██╔══╝  ██║██╔══╝  
-╚██████╔╝╚██████╔╝███████║███████║███████╗██║██║     
- ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝╚═╝     
-```
-
-### `$ whoami`
-**Youssef El Amrani** — Actor · Builder · ISADAC Rabat
-
-[![Portfolio](https://img.shields.io/badge/portfolio-live-b6905a?style=flat-square)](https://youssef-elamrani.github.io)
-[![Email](https://img.shields.io/badge/email-booking-black?style=flat-square&logo=gmail&logoColor=white)](mailto:booking@youssef-elamrani.com)
-[![Instagram](https://img.shields.io/badge/instagram-@youssef.elamrani-black?style=flat-square&logo=instagram&logoColor=white)](#)
-[![YouTube](https://img.shields.io/badge/youtube-showreel-black?style=flat-square&logo=youtube&logoColor=white)](#)
-
-</div>
-
----
-
-```bash
-$ cat about.txt
-```
-
-> Trained at ISADAC (Institut Supérieur des Arts Dramatiques et
-> d'Animation Culturelle), Rabat. Working across film, theatre, and
-> voice. This repo powers the GitHub Pages site — static, fast,
-> zero dependencies.
-
-```bash
-$ tree
-```
-```
-.
-├── index.html          # main site (single-file, no build step)
-├── assets/
-│   ├── fonts/           # Fraunces / Manrope / JetBrains Mono
-│   └── img/              # portraits, stills
-├── README.md            # you are here
-└── CNAME                # custom domain (optional)
-```
-
-```bash
-$ cat stack.json
-```
-```json
-{
-  "markup": "HTML5",
-  "styling": "CSS3 (custom properties, no framework)",
-  "scripting": "vanilla JS",
-  "hosting": "GitHub Pages",
-  "build_step": null,
-  "dependencies": 0
-}
-```
-
----
-
-### `$ ./deploy.sh`
-
-```bash
-# 1. clone
-git clone https://github.com/youssef-elamrani/youssef-elamrani.github.io.git
-cd youssef-elamrani.github.io
-
-# 2. edit index.html directly — no build step required
-
-# 3. ship it
-git add .
-git commit -m "update: showreel link"
-git push origin main
-
-# GitHub Pages auto-deploys from main → https://youssef-elamrani.github.io
-```
-
----
-
-### `$ cat status.log`
-
-| field          | value                                  |
-|----------------|-----------------------------------------|
-| `status`       | 🟢 live                                  |
-| `last_deploy`  | auto on push to `main`                   |
-| `domain`       | `youssef-elamrani.github.io`             |
-| `uptime`       | 100% (static, no server)                 |
-| `license`      | MIT                                      |
-
----
-
-<div align="center">
-
-`built with vanilla HTML/CSS/JS — no framework, no watermark, no nonsense`
-
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zakaria Boujebha — Actor</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#080808;color:#eee;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}nav{position:fixed;top:0;left:0;right:0;z-index:5;padding:22px 0;background:linear-gradient(#080808,transparent)}nav .wrap{display:flex;justify-content:space-between}.logo{font-weight:700;letter-spacing:.2em;font-size:12px}.links{display:flex;gap:25px;font-size:11px;text-transform:uppercase;letter-spacing:.14em}.links a{opacity:.65}.hero{min-height:100vh;display:flex;align-items:end;padding:120px 0 55px;position:relative;overflow:hidden;background:radial-gradient(circle at 70% 35%,#303030 0,#151515 28%,#080808 68%)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.75),transparent 75%),linear-gradient(0deg,#080808,transparent 55%)}.hero-content{position:relative;z-index:1}.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#aaa;margin-bottom:20px}h1{font-size:clamp(62px,12vw,150px);line-height:.8;letter-spacing:-.07em;font-weight:500;margin:0 0 30px}.tag{font:italic clamp(20px,2.5vw,30px)/1.3 Georgia,serif;color:#c9c5bf;max-width:600px}.section{padding:120px 0;border-top:1px solid #222}.head{display:flex;justify-content:space-between;margin-bottom:42px}.num{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#777}.title{font-size:clamp(40px,6vw,72px);letter-spacing:-.05em;font-weight:500;margin:0}.reel{aspect-ratio:16/9;background:#151515;border:1px solid #292929;display:grid;place-items:center}.reel span{border:1px solid #777;border-radius:50%;width:76px;height:76px;display:grid;place-items:center;font-size:25px;padding-left:4px}.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:80px}.bio{font:clamp(25px,3vw,40px)/1.25 Georgia,serif;margin:0}.facts{display:grid;gap:25px}.fact{border-top:1px solid #252525;padding-top:12px}.fact b{display:block;font-size:10px;color:#777;text-transform:uppercase;letter-spacing:.16em;margin-bottom:7px}.works{display:grid;grid-template-columns:1fr 1fr;border:1px solid #222}.work{min-height:300px;padding:25px;background:linear-gradient(145deg,#1a1a1a,#0d0d0d);border:1px solid #222;display:flex;align-items:end}.work small{color:#888;text-transform:uppercase;letter-spacing:.14em}.work h3{font-size:30px;font-weight:500;margin:7px 0}.socials{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #222;border-bottom:1px solid #222}.social{padding:25px 18px;border-right:1px solid #222;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.social:last-child{border:0}.contact{display:flex;justify-content:space-between;align-items:end;gap:30px}.email{font:clamp(28px,5vw,62px) Georgia,serif}.button{border:1px solid #ddd;padding:16px 22px;text-transform:uppercase;font-size:10px;letter-spacing:.15em}.button:hover{background:#eee;color:#111}footer{padding:35px 0;color:#666;font-size:10px;letter-spacing:.12em;text-transform:uppercase;display:flex;justify-content:space-between}@media(max-width:700px){.links{display:none}.section{padding:85px 0}.head{display:block}.num{margin-bottom:15px}.grid,.works{grid-template-columns:1fr}.socials{grid-template-columns:1fr 1fr}.social{border-bottom:1px solid #222}.contact{display:block}.email{display:block;margin-bottom:30px}.work{min-height:240px}}
+</style></head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#">ZAKARIA BOJEBHA</a><div class="links"><a href="#reel">Showreel</a><a href="#about">About</a><a href="#work">Work</a><a href="#contact">Contact</a></div></div></nav>
+<section class="hero"><div class="wrap hero-content"><div class="eyebrow">Moroccan Actor · ISADAC Rabat</div><h1>ZAKARIA<br>BOUJEBHA</h1><p class="tag">An actor's work begins where words stop.</p></div></section>
+<section class="section" id="reel"><div class="wrap"><div class="head"><div class="num">01 / Showreel</div><h2 class="title">In motion.</h2></div><div class="reel"><span>▶</span></div></div></section>
+<section class="section" id="about"><div class="wrap"><div class="head"><div class="num">02 / About</div><h2 class="title">The actor.</h2></div><div class="grid"><p class="bio">Moroccan actor and ISADAC-trained performer, working across screen, theatre and live performance.</p><div class="facts"><div class="fact"><b>Education</b>ISADAC — Institut Supérieur d'Art Dramatique et d'Animation Culturelle</div><div class="fact"><b>Languages</b>Arabic · French · English</div><div class="fact"><b>Skills</b>Acting · Theatre · Screen Performance · Voice</div><div class="fact"><b>Based in</b>Morocco</div></div></div></div></section>
+<section class="section" id="work"><div class="wrap"><div class="head"><div class="num">03 / Selected Work</div><h2 class="title">Selected work.</h2></div><div class="works"><article class="work"><div><small>Film · Year</small><h3>Project Title</h3></div></article><article class="work"><div><small>Theatre · Year</small><h3>Production Title</h3></div></article><article class="work"><div><small>Performance · Year</small><h3>Performance Title</h3></div></article><article class="work"><div><small>Project · Year</small><h3>Project Title</h3></div></article></div></div></section>
+<section class="section"><div class="wrap"><div class="head"><div class="num">04 / Socials</div><h2 class="title">Elsewhere.</h2></div><div class="socials"><a class="social" href="https://instagram.com/youssef.elamrani">Instagram ↗</a><a class="social" href="#">YouTube ↗</a><a class="social" href="#">TikTok ↗</a><a class="social" href="#">IMDb / Other ↗</a></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="head"><div class="num">05 / Contact</div><h2 class="title">Let's work.</h2></div><div class="contact"><a class="email" href="mailto:email@example.com">email@example.com</a><a class="button" href="mailto:email@example.com?subject=Booking%20Inquiry">Booking / Contact</a></div></div></section>
+<footer class="wrap"><span>© 2026 Zakaria Boujebha</span><span>Morocco</span></footer>
+</body></html>
